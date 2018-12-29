@@ -33,7 +33,7 @@ const routes: Routes = [
       { enableTracing: true } // <-- debugging purposes only
     )
   ],
-  exports [
+  exports: [
     RouterModule
   ],
   providers: [],
